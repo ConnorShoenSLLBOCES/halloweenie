@@ -20,6 +20,10 @@ header {
 	background-color: #671314;
 }
 
+header img {
+	padding-top: 5%
+}
+
 .nav-bar {
 	display: flex;
     justify-content: flex-end;
@@ -82,7 +86,7 @@ h2 {
 }
 
 h3 {
-	font-family: "Eater", serif;
+	font-family: "Rubik Wet Paint", sans-serif;
 	padding-left: 4%;
 }
 

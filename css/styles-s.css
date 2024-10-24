@@ -17,7 +17,7 @@
 }
 
 header {
-	background-color: #265210;
+	background-color: #325621;
 }
 
 header img {
@@ -30,11 +30,12 @@ header img {
     align-items: center;
     padding: 20px 50px;
 	text-align: center;
+	background-color: #9154AE
 }
 
 h1 {
 	font-family: "Eater", serif;
-	color: #4B0C74;
+	color: #fff;
 	text-align: center;
 	font-size: 2.5;
 }
@@ -55,7 +56,7 @@ nav ul {
 
 nav a {
 	text-decoration: none;
-	color: #4B0C74;
+	color: #48090A;
 	font-family: "Rubik Wet Paint", sans-serif;
 	display: inline-block;
 	padding: 0 5%;
@@ -65,7 +66,7 @@ nav a {
 }
 
 main {
-	background-color: #B16CD2;
+	background-color: #75A9D9;
 	padding: 2% 0;
 }
 
@@ -75,7 +76,7 @@ main p {
 }
 
 footer {
-	background-color: #0D3209;
+	background-color: #340808;
 	padding: 5%;
 }
 
@@ -95,6 +96,11 @@ h5 {
 	color: #fff;
 }
 
+main a {
+	text-decoration: none;
+	color: #795D6D
+}
+
 .cards {
 	display: flex;
     justify-content: center;
@@ -105,7 +111,7 @@ h5 {
 
 .card {
 	width: 325px;
-    background-color: #904809;
+    background-color: #A37F2F;
     color: #000;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
