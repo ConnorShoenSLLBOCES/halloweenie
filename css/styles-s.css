@@ -17,7 +17,7 @@
 }
 
 header {
-	background-color: #325621;
+	background-image: radial-gradient(#265210 43%, #6A4DA7 66%, #CC7A1E 96%, #9E1416 100%);
 }
 
 header img {
@@ -71,12 +71,13 @@ main {
 }
 
 main p {
-	padding: 0 5%;
 	font-family: "Rubik Wet Paint", sans-serif;
+	width: 95%;
+	margin: 0 auto;
 }
 
 footer {
-	background-color: #340808;
+	background-color: #374A13;
 	padding: 5%;
 }
 
@@ -110,7 +111,8 @@ main a {
 }
 
 .card {
-	width: 325px;
+	width: 20em;
+	height: 20em;
     background-color: #A37F2F;
     color: #000;
     border-radius: 10px;

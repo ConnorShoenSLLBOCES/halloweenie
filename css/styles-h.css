@@ -17,7 +17,7 @@
 }
 
 header {
-	background-color: #A68410;
+	background-image: radial-gradient(#A68410 43%, #6A4DA7 66%, #CC7A1E 96%, #9E1416 100%);
 }
 
 header img {
@@ -80,6 +80,11 @@ footer {
 	padding: 5%;
 }
 
+footer nav a {
+	color: #fff;
+	font-size: 1.3em;
+}
+
 h2 {
 	font-family: "Eater", serif;
 	font-size: 1.8em;
@@ -105,7 +110,8 @@ h5 {
 }
 
 .card {
-	width: 325px;
+	width: 20em;
+	height: 30em;
     background-color: #750E81;
     color: #fff;
     border-radius: 10px;
@@ -117,7 +123,7 @@ h5 {
 }
 
 .card:hover {
-    background-color: #fff;
+    background-color: #000;
 	color: #750E81
 }
 

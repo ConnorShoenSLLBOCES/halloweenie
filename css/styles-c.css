@@ -17,11 +17,12 @@
 }
 
 header {
-	background-color: #265210;
+	background-image: radial-gradient(#265210 43%, #6A4DA7 66%, #CC7A1E 96%, #9E1416 100%);
 }
 
 header img {
-	padding-top: 5%
+	padding-top: 5%;
+	color: #9E1416
 }
 
 .nav-bar {
@@ -30,6 +31,7 @@ header img {
     align-items: center;
     padding: 20px 50px;
 	text-align: center;
+	background-color: #1A2F0F;
 }
 
 h1 {
@@ -55,7 +57,7 @@ nav ul {
 
 nav a {
 	text-decoration: none;
-	color: #4B0C74;
+	color: #BE5A0E;
 	font-family: "Rubik Wet Paint", sans-serif;
 	display: inline-block;
 	padding: 0 5%;
@@ -104,7 +106,8 @@ h5 {
 }
 
 .card {
-	width: 325px;
+	width: 20em;
+	height: 20em;
     background-color: #904809;
     color: #000;
     border-radius: 10px;
@@ -113,11 +116,12 @@ h5 {
     margin: 10px;
     transition: 1.5s ease;
     margin-bottom: 5em;
+	
 }
 
 .card:hover {
-    background-color: #451112;
-	color: #fff
+    background-color: #60B8D0;
+	color: #104A0C;
 }
 
 .card img {
